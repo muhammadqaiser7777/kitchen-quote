@@ -12,7 +12,7 @@
   text-align: center;
   margin-bottom: 3rem;
   padding: 3rem 2rem;
-  background: linear-gradient(135deg, #1e3a5f 0%, #2c5aa0 50%, #4a9eff 100%);
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--flame-orange) 50%, var(--flame-yellow) 100%);
   color: white;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(36, 106, 115, 0.3);
@@ -79,8 +79,8 @@
 }
 
 .faq-item.active {
-  border-color: #2c5aa0;
-  box-shadow: 0 8px 30px rgba(44, 90, 160, 0.2);
+  border-color: var(--primary-blue);
+  box-shadow: 0 8px 30px rgba(30, 144, 255, 0.2);
 }
 
 /* Question Button */
@@ -108,7 +108,7 @@
   top: 0;
   height: 100%;
   width: 4px;
-  background: linear-gradient(180deg, #2c5aa0 0%, #4a9eff 100%);
+  background: linear-gradient(180deg, var(--primary-blue) 0%, var(--flame-orange) 100%);
   transform: scaleY(0);
   transition: transform 0.3s ease;
 }
@@ -135,7 +135,7 @@
 /* Toggle Icon */
 .toggle-icon {
   transition: transform 0.3s ease;
-  color: #2c5aa0;
+  color: var(--primary-blue);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -195,21 +195,21 @@
 }
 
 .faq-footer a {
-  color: #2c5aa0;
+  color: var(--primary-blue);
   text-decoration: none;
   font-weight: 700;
   font-size: 1.1rem;
   padding: 0.8rem 1.5rem;
-  background: linear-gradient(135deg, #2c5aa0 0%, #4a9eff 100%);
-  color: white;
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--flame-orange) 100%);
+  color: var(--soft-gray);
   border-radius: 25px;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(54, 143, 139, 0.3);
+  box-shadow: 0 4px 15px rgba(30, 144, 255, 0.3);
 }
 
 .faq-footer a:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(54, 143, 139, 0.4);
+  box-shadow: 0 6px 20px rgba(30, 144, 255, 0.4);
   text-decoration: none;
 }
 

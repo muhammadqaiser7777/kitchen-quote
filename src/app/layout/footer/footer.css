@@ -1,6 +1,6 @@
 /* ---------- FOOTER BASE ---------- */
 .site-footer {
-  background: linear-gradient(135deg, #0f1a2e, #2c5aa0); /* Gradient */
+  background: linear-gradient(135deg, var(--primary-blue), var(--flame-orange)); /* Gradient */
   color: #ffffff;
   width: 100%;
   padding: 1.5rem 0rem;

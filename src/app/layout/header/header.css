@@ -4,14 +4,14 @@
   top: 0;
   z-index: 100;
   width: 100%;
-  background: #1e3a5f;
+  background: var(--primary-blue);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  border-bottom: 2px solid #2c5aa0;
+  border-bottom: 2px solid var(--primary-blue);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .site-header.scrolled {
-  background: rgba(22, 15, 41, 0.95); /* Dark on scroll */
+  background: rgba(44, 44, 44, 0.95); /* Charcoal on scroll */
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(8px);
 }
@@ -83,7 +83,7 @@
 
 /* ---------- GET QUOTE BUTTON ---------- */
 .quote-btn {
-  background: #2c5aa0;
+  background: var(--flame-orange);
   color: #ffffff;
   padding: 0.5rem 1.2rem;
   border-radius: 8px;
@@ -93,7 +93,7 @@
 }
 
 .quote-btn:hover {
-  background: #0f1a2e;
+  background: var(--flame-yellow);
   transform: translateY(-2px);
 }
 
@@ -135,7 +135,7 @@
   top: 70px;
   left: 0;
   width: 100%;
-  background: rgba(22, 15, 41, 0.95);
+  background: rgba(44, 44, 44, 0.95);
   backdrop-filter: blur(8px);
   display: flex;
   flex-direction: column;
@@ -161,7 +161,7 @@
 }
 
 .mobile-dropdown a:hover {
-  color: #1e3a5f;
+  color: var(--primary-blue);
 }
 
 /* ---------- RESPONSIVE ---------- */
